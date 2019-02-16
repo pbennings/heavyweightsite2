@@ -60,14 +60,23 @@ p {
   color: #333;
 }
 
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
 .bg-primary {
   background: #f7c08a;
   color: #333;
 }
 
-.bg-dark {
-  background: #333;
-  color: #fff;
+.clr {
+  clear: both;
 }
 
 /* Navbar */
@@ -152,4 +161,24 @@ p {
 
 #home-info .info-content p{
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
